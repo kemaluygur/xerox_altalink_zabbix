@@ -259,22 +259,4 @@ Cyan kartuşu **Reorder** moduna girdiğinde SNMP değerleri farklı ölçek kul
 | Yazıcı SNMP | v2c aktif, community: `public` |
 
 ---
-
-## 📄 Lisans
-
-[MIT License](LICENSE) — Serbestçe kullanabilir, değiştirebilir ve paylaşabilirsin.
-
----
-
-## 🤝 Katkı
-
-Pull request ve issue'lar memnuniyetle karşılanır.  
-Farklı Xerox modelleri için test sonuçlarını paylaşırsan çok yardımcı olur.
-
----
-
-<div align="center">
-
-Hazırlandı ile ❤️
-
 </div>
