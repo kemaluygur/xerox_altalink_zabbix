@@ -25,9 +25,8 @@ Toner seviyeleri, drum kartuşları, kağıt tepsileri, baskı sayaçları ve si
 
 ## 📸 Dashboard Görünümü
 
-```
+
 ![Ekran Görüntüsü](görsel/resim.png)
-```
 
 ---
 
