@@ -1,0 +1,1781 @@
+{
+  "panels": [
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "content": "## Toner Kartuslari",
+        "mode": "markdown"
+      },
+      "title": "",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "dark-gray",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 0,
+        "y": 2
+      },
+      "id": 2,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Black Toner %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Siyah",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "blue",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 6,
+        "y": 2
+      },
+      "id": 3,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Cyan Toner %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Cam Gobegi",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "purple",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 12,
+        "y": 2
+      },
+      "id": 4,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Magenta Toner %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Kirmizi",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "yellow",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 18,
+        "y": 2
+      },
+      "id": 5,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Yellow Toner %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Sari",
+      "type": "gauge"
+    },
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 10
+      },
+      "id": 6,
+      "options": {
+        "content": "## Drum Kartus ve Servis Parcalari",
+        "mode": "markdown"
+      },
+      "title": "",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "teal",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 6,
+        "x": 0,
+        "y": 12
+      },
+      "id": 7,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Drum Cartridge R1 %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Drum R1",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "teal",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 6,
+        "x": 6,
+        "y": 12
+      },
+      "id": 8,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Drum Cartridge R2 %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Drum R2",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "teal",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 6,
+        "x": 12,
+        "y": 12
+      },
+      "id": 9,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Drum Cartridge R3 %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Drum R3",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "teal",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 6,
+        "x": 18,
+        "y": 12
+      },
+      "id": 10,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Drum Cartridge R4 %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Drum R4",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "green",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 0,
+        "y": 19
+      },
+      "id": 11,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Transfer Belt Cleaner %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Transfer Belt",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "green",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 8,
+        "y": 19
+      },
+      "id": 12,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Second Bias Transfer Roll %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Bias Transfer",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1,
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "red",
+                "value": 50
+              }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 16,
+        "y": 19
+      },
+      "id": 13,
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "showThresholdMarkers": true
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Waste Toner Container %"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Atik Toner",
+      "type": "gauge"
+    },
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 26
+      },
+      "id": 14,
+      "options": {
+        "content": "## Kagit Tepsileri",
+        "mode": "markdown"
+      },
+      "title": "",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "fixedColor": "text",
+            "mode": "fixed"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "sheets"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 0,
+        "y": 28
+      },
+      "id": 15,
+      "options": {
+        "colorMode": "none",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 16,
+          "valueSize": 28
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Tray 1 Paper Level"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Tepsi 1",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "fixedColor": "text",
+            "mode": "fixed"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "sheets"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 8,
+        "y": 28
+      },
+      "id": 16,
+      "options": {
+        "colorMode": "none",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 16,
+          "valueSize": 28
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Tray 2 Paper Level"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Tepsi 2",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "fixedColor": "text",
+            "mode": "fixed"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "sheets"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 16,
+        "y": 28
+      },
+      "id": 17,
+      "options": {
+        "colorMode": "none",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 16,
+          "valueSize": 28
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Tray 3 Paper Level"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Tepsi 3",
+      "type": "stat"
+    },
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 32
+      },
+      "id": 18,
+      "options": {
+        "content": "## Baski Sayaclari",
+        "mode": "markdown"
+      },
+      "title": "",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "pages"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 34
+      },
+      "id": 19,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Total Impressions"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Toplam",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "pages"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 6,
+        "y": 34
+      },
+      "id": 20,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Black Impressions"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Siyah",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "pages"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 34
+      },
+      "id": 21,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Color Impressions"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Renkli",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "pages"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 34
+      },
+      "id": 22,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Black Printed Sheets"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Siyah Sayfa",
+      "type": "stat"
+    },
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 38
+      },
+      "id": 23,
+      "options": {
+        "content": "## Sistem",
+        "mode": "markdown"
+      },
+      "title": "",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [
+            {
+              "options": {
+                "1": {
+                  "color": "green",
+                  "text": "Idle"
+                },
+                "2": {
+                  "color": "yellow",
+                  "text": "Warming"
+                },
+                "3": {
+                  "color": "blue",
+                  "text": "Printing"
+                },
+                "5": {
+                  "color": "red",
+                  "text": "Error"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": ""
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 40
+      },
+      "id": 24,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Xerox: Printer Status"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Durum",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "red",
+                  "text": "Offline"
+                },
+                "1": {
+                  "color": "green",
+                  "text": "Online"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": ""
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 6,
+        "y": 40
+      },
+      "id": 25,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "ICMP ping"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Baglanti",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "s"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 40
+      },
+      "id": 26,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "ICMP response time"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Gecikme",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "efl0u5solpvcwc"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "uptime"
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 40
+      },
+      "id": 27,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "text": {
+          "titleSize": 12,
+          "valueSize": 16
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "efl0u5solpvcwc"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Printers"
+          },
+          "host": {
+            "filter": "Xerox AltaLink C8255 (192.168.43.225)"
+          },
+          "item": {
+            "filter": "Uptime (network)"
+          },
+          "options": {
+            "showDisabledItems": false
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Calisma Suresi",
+      "type": "stat"
+    }
+  ],
+  "refresh": "5m",
+  "schemaVersion": 38,
+  "tags": [
+    "printer",
+    "xerox"
+  ],
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timezone": "browser",
+  "title": "Xerox AltaLink - Yazici Izleme",
+  "version": 10
+}
